@@ -1,4 +1,4 @@
-#incluse "main.h"
+#include "main.h"
 /**
  * print_line - function that draws a straight line the term
  * @n: input number
@@ -16,7 +16,8 @@ void print_line(int n)
 	else
 	{
 		for (co = 1; co <= n; co++)
-		{_putchar('-');
+		{
+			_putchar('-');
 		}
 		_putchar('\n');
 	}
